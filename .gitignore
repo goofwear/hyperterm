@@ -1,6 +1,5 @@
 # build output
 dist
-build
 
 # dependencies
 node_modules
@@ -8,6 +7,7 @@ node_modules
 # logs
 npm-debug.log
 
-# other
-.next
-.DS_Store
+# optional dev config file and plugins directory
+.hyper.js
+.hyper_plugins
+
